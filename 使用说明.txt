@@ -1,0 +1,7 @@
+将整个 skill-intro-zh 文件夹复制到新电脑。
+先安装 Codex 和所需技能，再双击“修改技能介绍.cmd”。
+脚本会扫描当前用户的个人、系统和插件技能，修改 SKILL.md 的 description 及 agents/openai.yaml 的 short_description。
+仅处理 descriptions.json 中已收录的技能；新技能可自行在该文件增加“技能文件夹名”: "中文介绍"。
+每次运行都会在 backups 文件夹保存原文件和 files.tsv 路径清单。
+运行后完全退出并重新打开 Codex，以刷新技能列表。
+系统或插件更新后，可能需要再次运行。
